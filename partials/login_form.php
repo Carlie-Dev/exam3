@@ -1,7 +1,9 @@
 <h2>Login</h2>
 
-<?php if (!empty($login_error)): ?>
-    <div class="alert alert-danger"></div>
+<?php 
+//login error display, added variable into div
+if (!empty($login_error)): ?>
+    <div class="alert alert-danger"><?php echo($login_error)?></div>
 <?php endif; ?>
 
 <form method="post">
