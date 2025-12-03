@@ -1,7 +1,7 @@
 <h2>Register</h2>
 
 <?php if (!empty($register_error)): ?>
-    <div class="alert alert-danger"></div>
+    <div class="alert alert-danger"><?php echo($register_error)?></div>
 <?php endif; ?>
 
 <form method="post">
