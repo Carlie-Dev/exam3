@@ -25,6 +25,6 @@
         <input type="password" name="confirm_password" class="form-control">
     </div>
 
-    <input type="hidden" name="action" value="register">
+    <input type="hidden" name="action" value="create_account">
     <button class="btn btn-primary">Create Account</button>
 </form>
