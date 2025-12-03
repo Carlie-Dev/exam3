@@ -3,3 +3,5 @@
 <p>Order for <strong><?php echo($full_name)?></strong> completed.</p>
 
 <p><a href="?view=list" class="btn btn-primary">Back to Records</a></p>
+
+<p><a href="?view=orders" class="btn btn-primary">Orders</a></p>
